@@ -1,5 +1,9 @@
 # Data-Structure-Python
-Implementation of all the data structure using python
+# Python Data Structures
+## Implementation of all the data structure using python
+
+[![Python 3](https://pyup.io/repos/github/digi0ps/ChennaiLoco/python-3-shield.svg)](https://pyup.io/repos/github/digi0ps/ChennaiLoco/)
+
 
 DataStructures:
 
