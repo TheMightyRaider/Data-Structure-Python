@@ -36,7 +36,7 @@ class LinkedList:
     
     def deletebyPostition(self,position):
         first=self.head
-        if position==1:
+        if position==0:
             self.head=first.next
             first=None
             return
@@ -60,12 +60,15 @@ class LinkedList:
         previous_node.next=new_node
         
 linkedlist=LinkedList()
-linkedlist.push(1)
+linkedlist.push(0)
 secondlist=Node(2)
 thirdlist=Node(3)
 
 linkedlist.head.next=secondlist
 secondlist.next=thirdlist
+
+linkedlist.push(1)
+linkedlist.push(2)
 
 linkedlist.insertinbetween(linkedlist.head,4)
 linkedlist.insertinbetween(secondlist,3)
