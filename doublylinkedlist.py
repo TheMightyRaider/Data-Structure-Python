@@ -43,7 +43,9 @@ class DoublyLinkedList:
     def deletebyposition(self,position):
         current=self.head
         if(position==1):
-            current.next=self.head
+            self.head=current.next
+            current=None
+            return
 
         for i in range(1,position-1):
             current=current.next
@@ -54,6 +56,8 @@ class DoublyLinkedList:
         while(current):
             print(current.data)
             current=current.next
+
+# TESTING
 
 linkedlist=DoublyLinkedList()
 linkedlist.insert(1)
