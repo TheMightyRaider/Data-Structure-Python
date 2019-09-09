@@ -16,5 +16,5 @@ class Stack:
     def pop(self):
         self.data.pop()
     
-    def display():
+    def display(self):
         print(self.data)
