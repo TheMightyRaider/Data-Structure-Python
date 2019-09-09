@@ -60,6 +60,27 @@ class Linkedlist:
         for i in range(position-2):
             current=current.next
         current.next=current.next.next
+    
+    def search(self,data):
+        current=self.head
+        count=0
+        if(current.data==data):
+           print(f'The Node Position:{count}')
+           print(f'The Node Location:{current}')
+           print(f'The Node Data:{current.data}')
+
+        elif(current is not None):
+            while(current):
+                if(current.data==data):
+                    print(f'The Node Position:{count}')
+                    print(f'The Node Location:{current}')
+                    print(f'The Node Data:{current.data}')
+                    break
+                count=count+1
+                current=current.next   
+        else:
+            print('Node is empty')
+            
 
     def print(self):
         current=self.head
@@ -75,8 +96,9 @@ circularlinkedlist=Linkedlist()
 circularlinkedlist.push(1)
 circularlinkedlist.push(2)
 circularlinkedlist.push(3)
-circularlinkedlist.insertinbetween(2,5)
+# circularlinkedlist.insertinbetween(2,5)
 circularlinkedlist.append(7)
-circularlinkedlist.deletebyvalue(1)
-circularlinkedlist.deletebyposition(4)
+# circularlinkedlist.deletebyvalue(1)
+# circularlinkedlist.deletebyposition(4)
+circularlinkedlist.search(3)
 circularlinkedlist.print()
