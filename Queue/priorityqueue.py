@@ -10,18 +10,33 @@ class PriorityQueueLinkedlist:
 
     def enqueue(self,data,priority):
         new_node=Node(data,priority)
-        temp=self.head
-        if(temp is not None):
-            if(temp.priority<new_node.priority):
-                new_node.next=self.head.next
-                self.head.next=new_node
-                self.head=temp
+        current=self.head
+        if(current==None):
+            new_node.next=current
+            self.head=new_node
+            return
+
+        elif(current.next==None):
+            if(current.priority<new_node.priority):
+                new_node.next=current.next
+                current.next=new_node
+                self.head=current
+                return
             else:
-                new_node.next=self.head
-                self.head=new_node
+                new_node.next=current
+                self.head=new_node 
+                return
         else:
-              new_node.next=self.head
-              self.head=new_node
+            if(current.priority<new_node.priority):
+                while(current and current.priority<new_node.priority):
+                    previous=current
+                    current=current.next
+                previous.next=new_node
+                new_node.next=current
+            else:
+                new_node.next=current
+                self.head=new_node
+        
             
     def dequeue(self):
         current=self.head
@@ -41,9 +56,10 @@ class PriorityQueueLinkedlist:
             current=current.next
 
 priorityQueue=PriorityQueueLinkedlist()
-priorityQueue.enqueue(1,3)
-priorityQueue.enqueue(2,1)
-priorityQueue.enqueue(3,2)
+priorityQueue.enqueue('Vishnu',5)
+priorityQueue.enqueue('Sriram',10)
+priorityQueue.enqueue('Rihan',3)
+priorityQueue.enqueue('Rihanxx',4)
 priorityQueue.dequeue()
 priorityQueue.print()
 
