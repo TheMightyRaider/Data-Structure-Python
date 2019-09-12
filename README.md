@@ -1,6 +1,6 @@
 # Data-Structure-Python
 # Python Data Structures
-## Implementation of all the data structure using python
+## Implementation of all data structure using python
 
 [![Python 3](https://pyup.io/repos/github/digi0ps/ChennaiLoco/python-3-shield.svg)](https://pyup.io/repos/github/digi0ps/ChennaiLoco/)
 [![Build Status](https://travis-ci.org/TheMightyRaider/Data-Structure-Python.svg?branch=master)](https://travis-ci.org/TheMightyRaider/Data-Structure-Python)
