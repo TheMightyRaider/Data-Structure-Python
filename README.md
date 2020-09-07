@@ -1,12 +1,11 @@
-# Data-Structure-Python
-# Python Data Structures
-## Implementation of all data structure using python
+# Data Stucture and Algorithm :rocket:
+## Implementation of important data structure and algorithm using python :superhero_man:
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Build Status](https://travis-ci.org/TheMightyRaider/Data-Structure-Python.svg?branch=master)](https://travis-ci.org/TheMightyRaider/Data-Structure-Python)
 
 
-## DataStructures:
+## Data Structures:
 
 - [X] Array
 - [ ] Hash Tables
