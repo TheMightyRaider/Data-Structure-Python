@@ -2,22 +2,27 @@
 # Python Data Structures
 ## Implementation of all data structure using python
 
-[![Python 3](https://pyup.io/repos/github/digi0ps/ChennaiLoco/python-3-shield.svg)](https://pyup.io/repos/github/digi0ps/ChennaiLoco/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Build Status](https://travis-ci.org/TheMightyRaider/Data-Structure-Python.svg?branch=master)](https://travis-ci.org/TheMightyRaider/Data-Structure-Python)
 
 
-DataStructures:
+## DataStructures:
 
-1.Array
-2.Hash Tables
-3.Linked Lists
-4.Stacks + Queues
-5.Trees
-6.Graphs
+- [X] Array
+- [ ] Hash Tables
+- [X] Linked Lists
+- [X] Stacks + Queues
+- [ ] Trees
+- [ ] Graphs
 
-Algorithms:
-1.Recursion
-2.Sorting
-3.BFS
-4.DFS
-5.Dynamic Programming
+## Algorithms:
+- [ ] Recursion
+- [ ] Sorting
+  - [ ] Bubble Sort
+  - [ ] Merge Sort
+  - [ ] Selection Sort
+  - [ ] Insertion Sort
+  - [ ] Quick Sort 
+- [X] BFS
+- [X] DFS
+- [ ] Dynamic Programming
